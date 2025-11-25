@@ -5,9 +5,9 @@
 
 # 1. Identificação do Projeto
 **Título:** Automatização da triagem de chamados internos de TI usando IA  
-**Autor:** [Seu Nome]  
-**Data:** [Data]  
-**Disciplina:** [Nome da disciplina]
+**Autor:** [Miguel Vieira]  
+**Data:** [24/11]  
+**Disciplina:** [Medição e Experimentação de Software]
 
 ---
 
