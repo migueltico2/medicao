@@ -56,6 +56,19 @@ Verificar se a IA reduz tempo, custo e erros na triagem de chamados internos.
 - Custo  
 - Carga de trabalho
 
+## 3.9 Tabela de Variáveis
+
+| Tipo | Variável | Descrição | Unidade/Tipo |
+|------|----------|------------|--------------|
+| Dependente | Tempo por triagem | Tempo para analisar um chamado | segundos |
+| Dependente | Acurácia | Porcentagem de classificações corretas | % |
+| Dependente | Custo | Custo operacional por triagem | R$ |
+| Dependente | Carga de trabalho | Percentual de esforço humano | % |
+| Independente | Tipo de solicitação | Categoria do chamado (acesso, erro, dúvida) | Qualitativa |
+| Independente | Volume de solicitações | Quantidade de chamados processados | Quantitativa |
+| Independente | Ferramenta de IA | Modelo utilizado | Qualitativa |
+
+
 ### Independentes  
 - Tipo da solicitação  
 - Volume  
@@ -77,7 +90,27 @@ Verificar se a IA reduz tempo, custo e erros na triagem de chamados internos.
 1. Inserir mensagem no chatbot  
 2. IA classifica  
 3. IA responde  
-4. Registrar automaticamente  
+4. Registrar automaticamente
+
+# 4.3 Fatores e Tratamentos
+
+| Fator | Tratamentos |
+|-------|-------------|
+| Tipo de atendente | Humano / IA |
+| Tipo de solicitação | Acesso / Erro / Dúvida / Outro |
+| Volume de chamados | 10 / 30 / 100 |
+| Tipo de resposta | Manual / Automática |
+
+## 4.4 Combinações Experimentais
+
+| Combinação | Tipo de atendente | Volume | Tipo de solicitação | Tipo de resposta |
+|------------|------------------|--------|---------------------|------------------|
+| C1 | Humano | 30 | Variado | Manual |
+| C2 | IA | 30 | Variado | Automática |
+| C3 | IA | 100 | Variado | Automática |
+| C4 | Humano | 10 | Variado | Manual |
+| C5 | IA | 10 | Variado | Automática |
+
 
 ---
 
