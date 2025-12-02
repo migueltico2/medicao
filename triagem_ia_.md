@@ -114,43 +114,42 @@ Verificar se a IA reduz tempo, custo e erros na triagem de chamados internos.
 
 ## 4.5 Fluxograma Operacional do Experimento
 
-INÍCIO
-  |
-  v
-Coleta das 30 mensagens de chamados reais
-  |
-  v
-Classificação em duas abordagens:
----------------------------------------
-|                                     |
-v                                     v
-TRIAGEM HUMANA                        TRIAGEM IA
-Stakeholder: atendente humano         Stakeholder: modelo de IA
-Instrumentos: Google Sheets,          Instrumentos: ChatGPT, prompts
-cronômetro                           Estruturas de output
-Variáveis resultantes:                Variáveis resultantes:
- - Tempo humano por solicitação        - Tempo IA por solicitação
- - Custo horário humano                - Custo IA por operação
- - Decisão humana                     - Decisão automatizada
----------------------------------------
-  |
-  v
-Registro dos resultados em planilha
-Métricas avaliadas: M1–M18
-(tempo, custo, acurácia, esforço, volume)
-  |
-  v
-Comparação dos resultados
-Entre:
-- variáveis dependentes (resultado)
-- variáveis independentes (fatores)
-  |
-  v
-Avaliação estatística e conclusões
-  |
-  v
+INÍCIO  
+  |  
+  v  
+Coleta das 30 mensagens de chamados reais  
+  |  
+  v  
+Classificação em duas abordagens:  
+---------------------------------------  
+|                                     |  
+v                                     v  
+TRIAGEM HUMANA                        TRIAGEM IA  
+Stakeholder: atendente humano         Stakeholder: modelo de IA  
+Instrumentos: Google Sheets,          Instrumentos: ChatGPT, prompts  
+Cronômetro                           Scripts de automação  
+Variáveis resultantes:                Variáveis resultantes:  
+ - Tempo humano por solicitação        - Tempo IA por solicitação  
+ - Custo horário humano                - Custo IA por operação  
+ - Decisão humana                      - Decisão automatizada  
+---------------------------------------  
+  |  
+  v  
+Registro dos resultados em planilha  
+Métricas avaliadas: M1–M18  
+(tempo, custo, acurácia, esforço, volume)  
+  |  
+  v  
+Comparação dos resultados  
+Entre:  
+- variáveis dependentes (resultado)  
+- variáveis independentes (fatores)  
+  |  
+  v  
+Avaliação estatística e conclusões  
+  |  
+  v  
 FIM
-
 
 
 ---
